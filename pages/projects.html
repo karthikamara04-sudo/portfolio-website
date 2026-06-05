@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore my portfolio of web development projects. Each project demonstrates semantic HTML5, WCAG accessibility compliance, and modern web technologies.">
+    <meta name="keywords" content="projects, portfolio, web development, React, Node.js, accessibility">
+    <meta name="author" content="Karthik Amara">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://karthikamara04-sudo.github.io/portfolio-website/pages/projects.html">
+    <meta property="og:title" content="My Projects - Karthik Amara">
+    <meta property="og:description" content="View my accessible, semantic HTML5 web development projects">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://karthikamara04-sudo.github.io/portfolio-website/pages/projects.html">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    
+    <title>Projects - Karthik Amara | Portfolio</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar-container">
+            <div class="logo" role="img" aria-label="Karthik Amara logo">
+                <a href="../index.html">Karthik Amara</a>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link active" aria-current="page">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Header -->
+        <header class="page-header" aria-labelledby="page-title">
+            <div class="container">
+                <h1 id="page-title">My Projects</h1>
+                <p class="page-subtitle">Showcasing my work in accessible web development</p>
+            </div>
+        </header>
+        
+        <!-- Projects Section -->
+        <section class="projects-section" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading" class="sr-only">Featured Projects</h2>
+                
+                <!-- Project 1 -->
+                <article class="project-detail" id="project-1">
+                    <div class="project-header">
+                        <h2>E-Commerce Platform</h2>
+                        <p class="project-year">2023</p>
+                    </div>
+                    
+                    <div class="project-grid">
+                        <div class="project-image-large">
+                            <img src="../assets/project-1-large.jpg" alt="E-commerce platform user interface showing product listings and shopping cart" loading="lazy">
+                        </div>
+                        
+                        <div class="project-info">
+                            <h3>Project Overview</h3>
+                            <p>
+                                A fully-featured e-commerce platform built with React, Node.js, and MongoDB. The application 
+                                prioritizes accessibility with WCAG AA compliance, semantic HTML5 structure, and comprehensive 
+                                ARIA labels for all interactive elements.
+                            </p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Semantic HTML5 product grid with proper heading hierarchy</li>
+                                <li>Accessible shopping cart with keyboard navigation</li>
+                                <li>Screen reader optimized checkout process</li>
+                                <li>WCAG AA compliant forms with error handling</li>
+                                <li>Responsive design with mobile-first approach</li>
+                                <li>100% Lighthouse Accessibility score</li>
+                            </ul>
+                            
+                            <h3>Technologies Used</h3>
+                            <div class="tech-stack">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">MongoDB</span>
+                                <span class="tech-badge">Express</span>
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/karthikamara04-sudo/ecommerce" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    View Source Code
+                                </a>
+                                <a href="#" class="project-link" aria-label="View live demo of e-commerce platform">
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr aria-hidden="true" class="project-divider">
+                </article>
+                
+                <!-- Project 2 -->
+                <article class="project-detail" id="project-2">
+                    <div class="project-header">
+                        <h2>Task Management App</h2>
+                        <p class="project-year">2023</p>
+                    </div>
+                    
+                    <div class="project-grid">
+                        <div class="project-image-large">
+                            <img src="../assets/project-2-large.jpg" alt="Task management application showing project dashboard with task lists" loading="lazy">
+                        </div>
+                        
+                        <div class="project-info">
+                            <h3>Project Overview</h3>
+                            <p>
+                                A progressive web app for real-time collaborative task management. Built with Vue.js and Firebase, 
+                                this project demonstrates advanced accessibility features including ARIA live regions for real-time 
+                                updates and comprehensive keyboard navigation support.
+                            </p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Real-time collaboration with ARIA live regions</li>
+                                <li>Drag-and-drop accessible task organization</li>
+                                <li>Keyboard-only navigation support</li>
+                                <li>Offline functionality with service workers</li>
+                                <li>Dark mode with sufficient color contrast (WCAG AAA)</li>
+                                <li>Screen reader optimized notifications</li>
+                            </ul>
+                            
+                            <h3>Technologies Used</h3>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Vue.js</span>
+                                <span class="tech-badge">Firebase</span>
+                                <span class="tech-badge">PWA</span>
+                                <span class="tech-badge">Service Workers</span>
+                                <span class="tech-badge">ARIA</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/karthikamara04-sudo/task-app" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    View Source Code
+                                </a>
+                                <a href="#" class="project-link" aria-label="View live demo of task management app">
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr aria-hidden="true" class="project-divider">
+                </article>
+                
+                <!-- Project 3 -->
+                <article class="project-detail" id="project-3">
+                    <div class="project-header">
+                        <h2>Design System</h2>
+                        <p class="project-year">2022</p>
+                    </div>
+                    
+                    <div class="project-grid">
+                        <div class="project-image-large">
+                            <img src="../assets/project-3-large.jpg" alt="Design system documentation showing accessible UI components library" loading="lazy">
+                        </div>
+                        
+                        <div class="project-info">
+                            <h3>Project Overview</h3>
+                            <p>
+                                A comprehensive design system with 50+ accessible UI components. Each component is built with 
+                                semantic HTML5, ARIA patterns, and comprehensive documentation. The system ensures WCAG AA 
+                                compliance across all implementations.
+                            </p>
+                            
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>50+ fully documented accessible components</li>
+                                <li>Interactive Storybook documentation</li>
+                                <li>Automated accessibility testing with axe-core</li>
+                                <li>WCAG AA color contrast verification</li>
+                                <li>Multiple component variants with live examples</li>
+                                <li>Keyboard navigation patterns guide</li>
+                            </ul>
+                            
+                            <h3>Technologies Used</h3>
+                            <div class="tech-stack">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Storybook</span>
+                                <span class="tech-badge">axe-core</span>
+                                <span class="tech-badge">TypeScript</span>
+                                <span class="tech-badge">SCSS</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/karthikamara04-sudo/design-system" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    View Source Code
+                                </a>
+                                <a href="#" class="project-link" aria-label="View live design system documentation">
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <!-- Accessibility Features Highlight -->
+        <section class="accessibility-highlight" aria-labelledby="a11y-heading">
+            <div class="container">
+                <h2 id="a11y-heading">Accessibility in My Projects</h2>
+                <p>All my projects follow these accessibility standards:</p>
+                
+                <div class="a11y-grid">
+                    <article class="a11y-card">
+                        <h3>Semantic HTML5</h3>
+                        <p>Using proper semantic tags like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;, and &lt;footer&gt; for document structure.</p>
+                    </article>
+                    
+                    <article class="a11y-card">
+                        <h3>ARIA Labels & Roles</h3>
+                        <p>Implementing ARIA attributes for screen reader support and complex interactive components.</p>
+                    </article>
+                    
+                    <article class="a11y-card">
+                        <h3>Keyboard Navigation</h3>
+                        <p>All interactive elements are fully keyboard accessible with visible focus indicators.</p>
+                    </article>
+                    
+                    <article class="a11y-card">
+                        <h3>Color Contrast</h3>
+                        <p>Ensuring WCAG AA (or AAA) color contrast ratios for all text and interactive elements.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo" aria-label="Site footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>I'm passionate about building accessible, performant, and user-friendly web experiences.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://github.com/karthikamara04-sudo" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Visit my Twitter profile">
+                            Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Karthik Amara. All rights reserved.</p>
+            <p>Built with semantic HTML5, accessibility-first design, and ❤️</p>
+        </div>
+    </footer>
+    
+    <script src="../js/main.js"></script>
+</body>
+</html>
